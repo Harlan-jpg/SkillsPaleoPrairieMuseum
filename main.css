@@ -274,6 +274,7 @@ body{
     background-color: #6e260e;
     color: white;
    
+   
 }
 #digExhibitPG{
     padding-right: 30px;
@@ -292,6 +293,7 @@ body{
 }
 
 #topButton{
+
 display:flex;
 margin: auto;
 padding: 10px;
@@ -306,7 +308,7 @@ font-size: large;
 
 }
 #Copyright{
-    
+    padding-top: 10px;
     justify-content: center;
     display: flex;
     align-items: center;
