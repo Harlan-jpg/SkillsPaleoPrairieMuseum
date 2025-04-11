@@ -34,8 +34,6 @@ display:flex;
     margin-left: 12px;
     margin: top;
     position: absolute;
-   
-   
    clip-path: circle();
    
     
@@ -43,7 +41,7 @@ display:flex;
 
 #AmericanDino{
     border: 5px solid;
-    max-width: 100vw;
+    max-width: 99.5vw;
     
     min-width: 10px;
     margin-top: 25px;
@@ -80,8 +78,18 @@ display:flex;
 }
 
 #whoWeAreSection{
+    align-items: center;
+    padding-left: 10px;
     display: flex;
     flex-direction: row-reverse;
+   
+
+}
+#whoWeArePG{
+    font-size: 27px;
+    text-align: center;
+padding-right: 10px;
+
 }
 #whoWeAreHeader{
     align-items: center;
@@ -96,18 +104,37 @@ display:flex;
 #paleontologyHeader{
     display: flex;
     justify-content: center;
+    font-size: 35px;
+
+}
+#paleontologySection{
+    align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+
 }
 #paleontologyPG{
-    align-items: center;
+   padding: 10px;
     justify-content: center;
     display: flex;
-    font-size: 25px;
+    font-size: 30px;
+    align-items: center;
+    text-align: center;
 
 }
 
 #membershipSection{
     display: flex;
     flex-direction: row-reverse;
+}
+#membershipPG{
+    
+    padding-left: 250px;
+    padding-right: 10px;
+    text-align: center;
+    display: flex;
+    font-size: 33px;
+    align-items: center;
 }
 #membershipHeader{
     align-items: center;
@@ -124,6 +151,14 @@ display:flex;
     display: flex;
     flex-direction: row-reverse;
 }
+#giftShopPG{
+    padding-right: 250px;
+    padding-left: 10px;
+    text-align: center;
+    display: flex;
+    font-size: 33px;
+    align-items: center;
+}
 #giftShopHeader{
     align-items: center;
     justify-content: center;
@@ -132,12 +167,24 @@ display:flex;
 
 }
 
-
-
-
 #seaExhibit{
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
+}
+#seaExhibit ul{
+    font-size: 30px;
+    padding-right: 30px;
+    text-align: center;
+}
+
+#seaExhibitPG{
+    
+    padding-right: 30px;
+    text-align: center;
+    display: flex;
+    font-size: 35px;
+    align-items: center;
+    padding-left: 20px;
 }
 #seaHeader{
     align-items: center;
@@ -166,7 +213,42 @@ body{
     margin: auto;
 
 }
+#prairieHeader{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 35px;
 
+}
+#prairieExhibit{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 35px;
+
+}
+#prairieExhibitPG{
+    padding-right: 30px;
+    text-align: center;
+    display: flex;
+    font-size: 35px;
+    align-items: center;
+    padding-left: 20px;
+}
+#digHeader{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 35px;
+}
+#digExhibitPG{
+    padding-right: 30px;
+    text-align: center;
+    display: flex;
+    font-size: 35px;
+    align-items: center;
+    padding-left: 20px;
+}
 #digSiteImage{
     border: 5px solid;
     max-width: 21vw;
