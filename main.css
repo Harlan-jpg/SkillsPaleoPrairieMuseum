@@ -1,17 +1,20 @@
 
 #titleAndLogo{
+    width: 100vw;
     display: flex;
    flex-direction: row-reverse;
-  margin: auto;
+ 
   align-items: center;
   justify-content: center;
-   
-
+  background-color: #228b22;
+  margin: 0px;
+  
 }
 
 #title{
 font-size: 50px;
 display:flex;
+
 
 
 
@@ -27,11 +30,13 @@ display:flex;
 #museumLogo{
     max-width: 22vw;
     min-width: 10px;
-    margin-top: 25px;
-    margin: auto;
+    margin-top: 10px;
+    margin-left: 12px;
+    margin: top;
     position: absolute;
-   padding-top: 10px;
-   padding-left: 10px;
+   
+   
+   clip-path: circle();
    
     
 }
@@ -73,6 +78,7 @@ display:flex;
     margin-top: 25px;
     margin: auto;
 }
+
 #whoWeAreSection{
     display: flex;
     flex-direction: row-reverse;
@@ -87,9 +93,9 @@ display:flex;
 
 
 
-#paleontologySection{
+#paleontologyHeader{
     display: flex;
-    flex-direction: row-reverse;
+    justify-content: center;
 }
 #paleontologyPG{
     align-items: center;
@@ -98,9 +104,6 @@ display:flex;
     font-size: 25px;
 
 }
-
-
-
 
 #membershipSection{
     display: flex;
@@ -143,5 +146,45 @@ display:flex;
     font-size: 35px;
 
 }
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+#seaImage{
+    border: 5px solid;
+    max-width: 21vw;
+    min-width: 10px;
+    margin-top: 25px;
+    margin: auto;
+}
+#fieldImage{
+    border: 5px solid;
+    max-width: 21vw;
+    min-width: 10px;
+    margin-top: 25px;
+    margin: auto;
+
+}
+
+#digSiteImage{
+    border: 5px solid;
+    max-width: 21vw;
+    min-width: 10px;
+    margin-top: 25px;
+    margin: auto;
+}
+
+#topButton{
+display:flex;
+margin: auto;
+padding: 10px;
+font-size: large;
+}
 
 
+#footerLogo{
+    width: 100px;
+
+
+}
