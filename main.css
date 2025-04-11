@@ -64,10 +64,12 @@ display:flex;
 }
 #membershipImage{
     border: 5px solid;
-    max-width: 21vw;
+    max-width: 15vw;
     min-width: 10px;
     margin-top: 25px;
     margin: auto;
+    
+
 }
 #giftshopImage{
     border: 5px solid;
@@ -78,10 +80,13 @@ display:flex;
 }
 
 #whoWeAreSection{
+    padding: 10px;
     align-items: center;
     padding-left: 10px;
     display: flex;
     flex-direction: row-reverse;
+    background-color: #6e260e;
+    color: white;
    
 
 }
@@ -96,7 +101,7 @@ padding-right: 10px;
     justify-content: center;
     display: flex;
     font-size: 35px;
-
+    text-decoration: underline;
 }
 
 
@@ -105,12 +110,16 @@ padding-right: 10px;
     display: flex;
     justify-content: center;
     font-size: 35px;
+    text-decoration: underline;
 
 }
 #paleontologySection{
+    padding: 10px;
     align-items: center;
     display: flex;
     flex-direction: row-reverse;
+    background-color: #6e260e;
+    color: white;
 
 }
 #paleontologyPG{
@@ -126,6 +135,9 @@ padding-right: 10px;
 #membershipSection{
     display: flex;
     flex-direction: row-reverse;
+    background-color: #6e260e;
+    color: white;
+    padding: 10px;
 }
 #membershipPG{
     
@@ -133,7 +145,7 @@ padding-right: 10px;
     padding-right: 10px;
     text-align: center;
     display: flex;
-    font-size: 33px;
+    font-size: 27px;
     align-items: center;
 }
 #membershipHeader{
@@ -141,6 +153,7 @@ padding-right: 10px;
     justify-content: center;
     display: flex;
     font-size: 35px;
+    text-decoration: underline;
 
 }
 
@@ -148,8 +161,11 @@ padding-right: 10px;
 
 
 #giftShopSection{
+    padding: 20px;
     display: flex;
     flex-direction: row-reverse;
+    background-color: #6e260e;
+    color: white;
 }
 #giftShopPG{
     padding-right: 250px;
@@ -163,13 +179,16 @@ padding-right: 10px;
     align-items: center;
     justify-content: center;
     display: flex;
-    font-size: 35px;
+    font-size: 30px;
+    text-decoration: underline;
 
 }
 
 #seaExhibit{
     display: flex;
     flex-direction: row;
+    background-color: #6e260e;
+    color: white;
 }
 #seaExhibit ul{
     font-size: 30px;
@@ -190,7 +209,8 @@ padding-right: 10px;
     align-items: center;
     justify-content: center;
     display: flex;
-    font-size: 35px;
+    font-size: 30px;
+    text-decoration: underline;
 
 }
 body{
@@ -207,8 +227,8 @@ body{
 }
 #fieldImage{
     border: 5px solid;
-    max-width: 21vw;
-    min-width: 10px;
+    max-width: 22vw;
+    min-width: 40px;
     margin-top: 25px;
     margin: auto;
 
@@ -217,7 +237,8 @@ body{
     align-items: center;
     justify-content: center;
     display: flex;
-    font-size: 35px;
+    font-size: 30px;
+    text-decoration: underline;
 
 }
 #prairieExhibit{
@@ -225,21 +246,34 @@ body{
     justify-content: center;
     display: flex;
     font-size: 35px;
+    background-color: #6e260e;
+    color: white;
 
 }
 #prairieExhibitPG{
     padding-right: 30px;
     text-align: center;
     display: flex;
-    font-size: 35px;
+    font-size: 30px;
     align-items: center;
     padding-left: 20px;
 }
 #digHeader{
+
     align-items: center;
     justify-content: center;
     display: flex;
     font-size: 35px;
+    text-decoration: underline;
+}
+#DigExhibit{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 35px;
+    background-color: #6e260e;
+    color: white;
+   
 }
 #digExhibitPG{
     padding-right: 30px;
@@ -267,6 +301,15 @@ font-size: large;
 
 #footerLogo{
     width: 100px;
+    padding-right: 680px;
 
+
+}
+#Copyright{
+    
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding-right: 801px;
 
 }
