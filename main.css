@@ -66,6 +66,13 @@ display:flex;
     margin-top: 25px;
     margin: auto;
 }
+#giftshopImage{
+    border: 5px solid;
+    max-width: 21vw;
+    min-width: 10px;
+    margin-top: 25px;
+    margin: auto;
+}
 
 #whoWeAreHeader{
     align-items: center;
